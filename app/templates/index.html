@@ -1,17 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <style>
-        body {
-            background: yellow;
-        }
-    </style>
-</head>
-<body>
-    <h1>Hello, World</h1>
-</body>
-</html>
+{% extends 'base.html' %}
+{% block title  %}Home Page{% endblock %}
+
+{% block content %}
+<h1>Masno ni</h1> 
+<div class="p-3 mb-2 bg-info text-white">
+        Lucek
+      </div>
+      <div class="card-body">
+        <blockquote class="blockquote mb-0">
+          <p>2018</p>
+          <footer class="blockquote-footer">Mega <cite title="Source Title">Kozak</cite></footer>
+        </blockquote>
+      </div>
+    </div>
+{% endblock %}
