@@ -10,3 +10,7 @@ def index():
 def getUser(name):
     return render_template('user.html', name=name)
 
+@app.route('/galeria')
+def galeria():
+    return render_template('galeria.html')
+
